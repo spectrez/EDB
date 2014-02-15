@@ -1,0 +1,207 @@
+-- ----------------------------
+-- Table structure for `db_script_string`
+-- ----------------------------
+DROP TABLE IF EXISTS `db_script_string`;
+CREATE TABLE `db_script_string` (
+  `entry` int(10) unsigned NOT NULL DEFAULT '0',
+  `content_default` text NOT NULL,
+  `content_loc1` text,
+  `content_loc2` text,
+  `content_loc3` text,
+  `content_loc4` text,
+  `content_loc5` text,
+  `content_loc6` text,
+  `content_loc7` text,
+  `content_loc8` text,
+  PRIMARY KEY (`entry`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of db_script_string
+-- ----------------------------
+INSERT INTO `db_script_string` VALUES ('2000000107', 'These aren\'t Shango\'s tracks.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000000108', 'These tracks must belong to Shango.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005018', 'Ah, this must be him now... no?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005019', 'You might wanna stand back. Fish guttin\' is a dirty job.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005020', 'It\'s good to see you defending Theramore with pride, friend.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005021', 'When you\'re off duty, let\'s go to the inn. I\'ll buy a round and we can reminisce about the good old days.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005022', 'Wouldn\'t you like to bring those days back? I have some friends who know just the way to do that.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005023', 'Every item that I have for sale I acquired myself. You have my personal guarantee of authenticity.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005024', 'It\'s getting away!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005025', 'Prizes! Get your prizes right here! Get over here and turn in your Darkmoon Faire Prize Tickets for valuable prizes!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005026', 'Come speak with me, and what once was cloudy shall become crystal clear.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005027', 'The Lich King\'s forces are building. It is imperative that our timetable supports his plans.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005028', 'Tomorrow we will begin training of our promising dragons, so don\'t forget your chew toys.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005029', 'Our oldest clutch of dragons are still far from maturity, but with patience and study, we are confident the dragons will soon be ready.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005030', 'If you wait to come see me, there may be nothing left!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005031', 'I come from the land down under... where women plague and men sunder.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005032', '...And then the tauren said, \"13 INCHES!\"', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005033', 'Come one, come all! Welcome to the Darkmoon Faire! Do you crave adventure? Do you seek exotic and mysterious treasures? Then look no further! You, my friend, have come to the right place! Dive right in and take part in all that the Faire has to offer! We\'ll be at this location all week, so be sure to tell your friends and loved ones!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005034', 'Welcome one and all to the Darkmoon Faire, the greatest event in all the worlds! We have it all... delicious food, strong drinks, exotic artifacts, fortunes read, amazing prizes and excitement without end! Don\'t forget to turn in your Darkmoon Faire Prize Tickets to Gelvas Grimegate! All it takes is five or more and you\'re on your way to the most wondrous prizes in all of Outland. Everybody is a winner', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005035', 'It\'s getting away!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005036', 'Please! I must feed on something soon... A mana crystal... a shard... anything! The pain is unbearable!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005037', 'I might just have to go hunting for that Wretched beast now that there\'s a bounty on his head.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005038', 'Tell us! Where does you leader hide?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005039', 'The wind speaks of our enemies\' movements, Ashyen. The Naga will attack again.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005040', 'Very well. When that decision is made, I will be ready. Let us hope it won\'t be too late.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005041', 'I will do my best to take care of the children, Grandmother.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005042', 'New posting up! Adventurers and heroes, gather round the bulletin board!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005043', 'I WILL DESTROY ALL', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005044', 'US ALREADY ALL ANYMORE AND ANYMORE', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005045', 'Just don\'t ask me where I got it...', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005048', 'Having a good time?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005049', 'I have another reading from the nether.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005050', 'Well hand it overand let\'s see what you got!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005051', 'Great Gazlowe!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005052', 'Hey, you there. Want some candy?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005053', 'Bip!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005054', 'Bip!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005055', 'Bip!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005056', 'Right. We just busted our tails to haul all of this stuff up here, and you want us to work more?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005057', 'Crybaby! Crybaby!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005058', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005059', 'I wonder if your dolly can swim!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005060', 'Ha ha! I have Betsy!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005061', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005062', 'I have your dolly! Nyah nyah!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005063', 'Crybaby! Crybaby!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005064', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005065', 'I wonder if your dolly can swim!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005066', 'Ha ha! I have Betsy!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005067', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005068', 'I have your dolly! Nyah nyah!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005069', 'Crybaby! Crybaby!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005070', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005071', 'I wonder if your dolly can swim!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005072', 'Ha ha! I have Betsy!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005073', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005074', 'I have your dolly! Nyah nyah!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005075', 'Crybaby! Crybaby!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005076', 'Baby wants her dolly!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005077', 'I wonder if your dolly can swim!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005078', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005079', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005080', 'Don\'t hurt Betsy, you meanie!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005081', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005082', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005083', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005084', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005085', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005086', 'Don\'t hurt Betsy, you meanie!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005087', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005088', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005089', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005090', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005091', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005092', 'Don\'t hurt Betsy, you meanie!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005093', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005094', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005095', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005096', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005097', 'Gimmie my dolly!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005098', 'Don\'t hurt Betsy, you meanie!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005099', 'Fresh bread for sale', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005100', 'Get it while its hot', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005101', 'Fresh bread for sale', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005102', 'Get it while its hot', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005103', 'Jack and Jill my wrinkled patoot! I do all the water luggin round here.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005104', 'Wheres the water Emma? Get the water Emma? Ifn it werent fer me that lot wouldnt know what water looks like.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005105', 'Of Course Im talking to myself. Only way to get a decent conversation in this city.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005106', 'As if I dont have better things to do in my old age than carry buckets of water.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005107', 'Seems like a hundred times a day I walk all the way to get more water. No respect for their elders I tell ya.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005108', 'Deja vu. For a moment I thought I was back home... before the plague...', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005109', 'They say he can turn into a raven sometimes.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005110', 'They say he can turn into a raven sometimes.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005111', 'And then the rabbit just bit his head off... I swear.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005112', 'I swear, people have actualy seen them. Pandaren really do exist!!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005113', 'You know why Orcs eyes glow red? It\'s because they drink blood!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005114', 'I dont think there\'s any fish in these canals.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005115', 'And that\'s how Lother killed thirty six orcs with his bare hands!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005116', 'Eww... that\'s not a fish!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005117', 'I got worm guts on my shoes.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005118', 'I think i see something.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005119', 'Eww... that\'s not a fish!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005120', 'I think i see something.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005121', 'I hope that was a fish!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005122', 'Worm goes on the hook, hook goes in the water, Fish is in the water, our fish.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005123', 'Can you imagine?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005124', 'Really?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005125', 'Wow.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005126', 'My father says that\'s just a story.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005127', 'Really?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005128', 'Wow.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005129', 'That\'s neat.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005130', 'Wow.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005131', 'Really?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005132', 'Look alive, dogs! We got an operation to run here!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005133', 'Having a good time?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005134', 'Here we have the Cathedral of Light, the center of spiritual enlightenment here in Stormwind.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005135', 'Yes, that is true. Paladins and Priests alike train their skills and research great truths behind the walls of the Cathedral.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005136', 'Children if you would please follow me, we will now be going to see the keep where King Anduin Wrynn himself sits on this throne.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005137', 'Here we have Stormwind Keep. Built upon the ruins of Stormwind Castle, which was destroyed by the Horde in the first Great War.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005138', 'When the Horde was shattered, men returned here and began to rebuild the once great city as a testament to our own survival.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005139', 'Yes, well...let\'s head on to the monument dedicated to the heroes of the two Great Wars, the Valley of Heroes. Follow Me.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005140', 'Isn\'t it amazing, children? All who enter the city must walk beneath the watchful eyes of the greatest heroes of our lands.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005141', 'Breathtaking. Children, when we return to the school, you will each give an oral report on one of these legendary people.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005142', 'Now, take another long look before we make our way to the Holy District and the great Cathedral of Light.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005143', 'This will never do..', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005144', 'This must be fixed!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005145', 'How can anyone live like this!?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005147', 'Don\'t go close to the lake! It\'s haunted!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005148', 'Putting in twelve centers of focus might allow the magical energies to form more solidly, adding the necessary stability.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005149', 'At least we would not be around to have to clean it up.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005150', 'Only if we did not follow the proper initialization procedures.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005151', 'The resultant energies could collapse though, and that could cause an energy flux that would give you a migraine for weeks.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005152', 'Only if we did not follow the proper initialization procedures.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005153', 'Only if we did not follow the proper initialization procedures.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005154', 'At least we would not be around to have to clean it up.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005155', 'But isn\'t that what caused the initial problems with Adept Syleria\'s magical formula?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005156', 'I suppose that could work, if we had twenty people to cast it with.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005157', 'But what if the resulting frequency shift were to send magical feedback up the flows?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005158', 'When the positively aligned energies collide with the negatively charged energies, they don`t negate one another.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005159', 'That will unbalance the magical focus, though, and cause a reverse vibration in the ether.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005160', 'But wouldn`t that mean crossing the streams? Isn`t that really bad?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005161', 'Why can\'t we just shift the array to compensate for the variance in the flux?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005162', 'But isn\'t that what caused the initial problems with Adept Syleria\'s magical formula?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005163', 'I think not, I don\'t need to be blown up again.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005164', 'Maginor says that twisting alternating flows of positive energy actually creates a much more stable flow.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005165', 'But wouldn`t that mean crossing the streams? Isn`t that really bad?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005166', 'But isn\'t that what caused the initial problems with Adept Syleria\'s magical formula?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005167', 'Is it true that the paladins train here?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005168', 'Why do we have to learn this stuff anyway?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005169', 'If we reverse the Essence flows perhaps we can alter the polarity.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005170', 'What if we used three focuses in Tyrean pattern? That should solve it.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005171', 'Wow, all this for a love potion. Hope he is worth it.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005172', 'If we use the appropriate sequence we should be ok. Will just take some serious studying before we start.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005173', 'The Portal will shift slightly. At this point if you cast a binding cantrip you will solidify it in place.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005174', 'Wow, all this for a love potion. Hope he is worth it.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005175', 'But if we stabilize it with an anchor thread at the appropriate energy crux then it should work.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005176', 'What if we used three focuses in Tyrean pattern? That should solve it.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005177', 'If we use the appropriate sequence we should be ok. Will just take some serious studying before we start.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005178', 'But if we stabilize it with an anchor thread at the appropriate energy crux then it should work.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005179', 'Wow, all this for a love potion. Hope he is worth it.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005180', 'Hello, Charys. I have my list, could you get me all of that, especially the last ingredient.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005181', 'Sure Paige. Just be gentle.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005182', 'Thanks, Charys. C\'mon Paige, sweetie.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005183', 'Mommy? Can I pet Fizzles?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005184', 'Fizzles used to be a great wizard. But got turned into a rabbit when one of his spells went bad.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005200', 'Charge!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005201', 'Charge!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005202', 'Ahh, my precious Ameenah! How wonderful to see you again.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005203', 'Yer wearin down, princess, I can sense it!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005204', 'Hmm, don\'t mind if I do!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005205', 'It\'s coming along, Wafflefry. Haven\'t you got a product demonstration to do or something?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005206', 'Be the first on your block to own the incredible Electrostatic Maculation Blaster!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005207', 'Derived from cutting edge Shattered Hand Offensive military technology, it blasts away stubborn stains with ease!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005208', 'Wine stains, grass stains, even pet stains are no match for the Electrostatic Maculation Blaster!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005209', 'Don\'t wait! Order now and receive my Ultra-Kinetic Waffle Iron at no additional charge!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005210', 'I\'ll never stop. Never...', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005400', 'We really should fix this fence soon.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005401', '*sigh* It\'s about time to check on the cemetary again-- Ill be back in a few minutes.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005402', 'How long can it take to pick a handful of weeds?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005403', 'At this rate I could have gathered them myself!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005404', 'Ah, this must be him now... no? Bah!', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005405', 'As if I had all eternity.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005406', 'We\'re running low on iron, lads! I don\'t want to see a single bar go to waste, ye hear me now?', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005407', 'Not bad. Try that trick I told you about when you temper the steel.', null, null, null, null, null, null, null, null);
+INSERT INTO `db_script_string` VALUES ('2000005408', 'Stonemasons. . .errr. . Defias be warned:  The rusty anchor sinks tonight.', null, null, null, null, null, null, null, null);
