@@ -97,3 +97,9 @@ INSERT INTO `mail_loot_template` VALUES ('230', '46883', '100', '1', '0', '1', '
 INSERT INTO `mail_loot_template` VALUES ('231', '46880', '100', '1', '0', '1', '1');
 INSERT INTO `mail_loot_template` VALUES ('232', '46882', '100', '1', '0', '1', '1');
 INSERT INTO `mail_loot_template` VALUES ('233', '46881', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('211', '37676', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('262', '43516', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('266', '46708', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('267', '46171', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('286', '47840', '100', '1', '0', '1', '1');
+INSERT INTO `mail_loot_template` VALUES ('287', '50435', '100', '1', '0', '1', '1');
