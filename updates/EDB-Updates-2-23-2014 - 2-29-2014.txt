@@ -82,7 +82,7 @@ UPDATE `creature_template` SET `exp`=2 WHERE `entry` IN (40422, 35524, 35310, 35
 # creature_template - No data in battlemaster_entry, setting flag to 1
 UPDATE `creature_template` SET `npcflag`=1 WHERE `entry` IN (35596, 35601, 35597, 35598, 35008, 34955);
 
-# creature_template - Invalid spell_walk/speed_run
+# creature_template - Invalid speed_walk/speed_run
 UPDATE `creature_template` SET `speed_walk`=1 WHERE `entry` IN (32795, 2674, 16236, 20809, 25855, 26631, 27894, 28833, 28887, 29613, 30337, 31350);
 UPDATE `creature_template` SET `speed_run`=1.14286 WHERE `entry` IN (32795, 16236, 25855, 26631, 27894, 28833, 29613, 31350);
 
