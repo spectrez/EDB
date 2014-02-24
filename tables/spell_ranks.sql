@@ -1375,7 +1375,6 @@ INSERT INTO `spell_ranks` VALUES ('19870', '19871', '2');
 INSERT INTO `spell_ranks` VALUES ('50170', '50170', '1');
 INSERT INTO `spell_ranks` VALUES ('50170', '50171', '2');
 INSERT INTO `spell_ranks` VALUES ('50170', '50172', '3');
-INSERT INTO `spell_ranks` VALUES ('11095', '12873', '3');
 INSERT INTO `spell_ranks` VALUES ('19491', '19491', '1');
 INSERT INTO `spell_ranks` VALUES ('19491', '19493', '2');
 INSERT INTO `spell_ranks` VALUES ('19491', '19494', '3');

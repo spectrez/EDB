@@ -71,3 +71,20 @@ DELETE FROM `spell_ranks` WHERE `spell_id` IN (5923, 5924, 5925, 5926, 25829, 59
 61222, 61680, 61681, 52858, 61682, 61683, 61686, 61687, 61688, 61689, 61690, 62097, 62098, 62099, 62100, 62101, 62758, 62762, 62759, 62760, 62764, 62765, 62905, 62908, 63117, 63121, 63123, 63156, 63158, 63349, 
 63350, 63351, 63370, 63372, 63373, 63374, 63410, 63411, 63504, 63505, 63506, 63534, 63542, 63543, 63625, 63626, 63627, 63646, 63647, 63648, 63649, 63650, 63730, 63733, 63737, 64127, 64129, 64353, 64357, 65661, 
 66191, 66192, 66799, 66814, 66815, 66816, 66817);
+
+# spell_ranks - Spell only has 1 rank, it isn't needed
+DELETE FROM `spell_ranks` WHERE `first_spell_id`=11095;
+
+# creature_template - Entries in difficulty_entry has different exp
+UPDATE `creature_template` SET `exp`=2 WHERE `entry` IN (40422, 35524, 35310, 35535, 35520, 35530, 35541, 35537, 35525, 35519, 35534, 35529, 35533, 40418, 35522, 35542, 35528, 35539,
+35538, 35029, 30882, 30890, 35306, 35307, 35039, 35543, 35521, 35531, 40420, 40424, 35536, 31539, 31540, 35308, 35527, 35039);
+
+# creature_template - No data in battlemaster_entry, setting flag to 1
+UPDATE `creature_template` SET `npcflag`=1 WHERE `entry` IN (35596, 35601, 35597, 35598, 35008, 34955);
+
+# creature_template - Invalid spell_walk/speed_run
+UPDATE `creature_template` SET `speed_walk`=1 WHERE `entry` IN (32795, 2674, 16236, 20809, 25855, 26631, 27894, 28833, 28887, 29613, 30337, 31350);
+UPDATE `creature_template` SET `speed_run`=1.14286 WHERE `entry` IN (32795, 16236, 25855, 26631, 27894, 28833, 29613, 31350);
+
+# battlemaster_entry - Dummy npcs? Removed from battlemaster_entry since they are useless
+DELETE FROM `battlemaster_entry` WHERE `entry` IN (17506, 17507, 16711);
