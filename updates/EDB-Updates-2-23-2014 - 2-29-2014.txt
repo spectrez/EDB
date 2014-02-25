@@ -88,3 +88,18 @@ UPDATE `creature_template` SET `speed_run`=1.14286 WHERE `entry` IN (32795, 1623
 
 # battlemaster_entry - Dummy npcs? Removed from battlemaster_entry since they are useless
 DELETE FROM `battlemaster_entry` WHERE `entry` IN (17506, 17507, 16711);
+
+# mail_loot_template Item is non existent, removing entry
+DELETE FROM `mail_loot_template` WHERE `entry`=287;
+
+# creature_template_addon - Removed Auras that caused start up errors
+UPDATE `creature_template_addon` SET `auras`=50494 WHERE `entry`=28006;
+UPDATE `creature_template_addon` SET `auras`=0 WHERE `entry` IN (28093, 29838, 27661);
+
+# creature_addon - Removed Auras that caused start up errors
+UPDATE `creature_addon` SET `auras`=64718 WHERE `guid`=85236;
+UPDATE `creature_addon` SET `auras`=0 WHERE `guid` IN (125946, 128590, 128591, 128592, 128593, 128595, 128596, 128597, 128598, 128599, 128600, 
+128616, 128617, 128618, 128619, 128620, 128621, 128622, 128623, 128624, 128625, 128626, 132681, 133326, 133328, 133329, 133330, 133331);
+
+# gameobject_template - Fixed Dalaran Fountain so it isn't selectable/clickable
+UPDATE `gameobject_template` SET `type`=10, `flags`=16 WHERE `entry`=202616;

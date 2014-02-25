@@ -102,4 +102,3 @@ INSERT INTO `mail_loot_template` VALUES ('262', '43516', '100', '1', '0', '1', '
 INSERT INTO `mail_loot_template` VALUES ('266', '46708', '100', '1', '0', '1', '1');
 INSERT INTO `mail_loot_template` VALUES ('267', '46171', '100', '1', '0', '1', '1');
 INSERT INTO `mail_loot_template` VALUES ('286', '47840', '100', '1', '0', '1', '1');
-INSERT INTO `mail_loot_template` VALUES ('287', '50435', '100', '1', '0', '1', '1');
