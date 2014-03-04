@@ -6306,7 +6306,7 @@ INSERT INTO `creature_template_addon` VALUES ('3712', '0', '0', '0', '4097', '0'
 INSERT INTO `creature_template_addon` VALUES ('5251', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('3106', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('1924', '0', '0', '0', '4097', '0', '');
-INSERT INTO `creature_template_addon` VALUES ('28093', '0', '0', '50331648', '1', '0', '0');
+INSERT INTO `creature_template_addon` VALUES ('28093', '0', '0', '50331648', '1', '0', null);
 INSERT INTO `creature_template_addon` VALUES ('4361', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('5235', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('4719', '0', '0', '0', '4097', '0', '');
@@ -6316,7 +6316,7 @@ INSERT INTO `creature_template_addon` VALUES ('4142', '0', '0', '0', '4097', '0'
 INSERT INTO `creature_template_addon` VALUES ('11873', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('3129', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('1094', '0', '0', '0', '4097', '233', '');
-INSERT INTO `creature_template_addon` VALUES ('29838', '0', '0', '0', '1', '0', '0');
+INSERT INTO `creature_template_addon` VALUES ('29838', '0', '0', '0', '1', '0', null);
 INSERT INTO `creature_template_addon` VALUES ('26765', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('5975', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('122', '0', '0', '0', '4097', '0', '');
@@ -6458,7 +6458,7 @@ INSERT INTO `creature_template_addon` VALUES ('7093', '0', '0', '0', '4097', '0'
 INSERT INTO `creature_template_addon` VALUES ('513', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('8961', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('33740', '0', '28571', '0', '1', '0', '63396 62852 64723');
-INSERT INTO `creature_template_addon` VALUES ('27661', '0', '0', '0', '257', '0', '0');
+INSERT INTO `creature_template_addon` VALUES ('27661', '0', '0', '0', '257', '0', null);
 INSERT INTO `creature_template_addon` VALUES ('3817', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('24312', '0', '0', '0', '4097', '0', '');
 INSERT INTO `creature_template_addon` VALUES ('4027', '0', '0', '0', '4097', '0', '');
