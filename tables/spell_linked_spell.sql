@@ -356,3 +356,5 @@ INSERT INTO `spell_linked_spell` VALUES ('42013', '45537', '0', 'Visual Channel'
 INSERT INTO `spell_linked_spell` VALUES ('56752', '-32951', '1', 'Wake Snorri removes Sleeping Sleep');
 INSERT INTO `spell_linked_spell` VALUES ('55818', '55528', '0', 'Summon Earthen');
 INSERT INTO `spell_linked_spell` VALUES ('56562', '56566', '0', 'Carve Bear Flank triggers create bear flank');
+INSERT INTO `spell_linked_spell` VALUES ('68645', '68721', '1', 'Rocket Pack - additional aura');
+INSERT INTO `spell_linked_spell` VALUES ('73077', '69188', '2', 'Rocket Pack - linked aura');

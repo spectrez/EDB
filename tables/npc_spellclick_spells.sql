@@ -22,3 +22,6 @@ INSERT INTO `npc_spellclick_spells` VALUES ('28669', '46598', '0', '1');
 INSERT INTO `npc_spellclick_spells` VALUES ('29863', '46598', '0', '1');
 INSERT INTO `npc_spellclick_spells` VALUES ('29736', '43671', '1', '0');
 INSERT INTO `npc_spellclick_spells` VALUES ('30123', '55957', '3', '0');
+INSERT INTO `npc_spellclick_spells` VALUES ('37227', '70104', '3', '0');
+INSERT INTO `npc_spellclick_spells` VALUES ('36838', '70510', '1', '0');
+INSERT INTO `npc_spellclick_spells` VALUES ('36839', '70510', '1', '0');

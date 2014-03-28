@@ -264,7 +264,7 @@ INSERT INTO `spell_target_position` VALUES ('39871', '0', '1', '3697.2', '-3967.
 INSERT INTO `spell_target_position` VALUES ('43098', '0', '568', '-34.316', '1149.64', '19.155', '3.119');
 INSERT INTO `spell_target_position` VALUES ('46020', '0', '580', '1704.34', '928.17', '53.079', '0');
 INSERT INTO `spell_target_position` VALUES ('46019', '0', '580', '1704.34', '928.17', '-74.558', '0');
-INSERT INTO `spell_target_position` VALUES ('51852', '2', '609', '2361.21', '-5660.45', '503.828', '4.49');
+INSERT INTO `spell_target_position` VALUES ('51852', '0', '609', '2361.21', '-5660.45', '503.828', '4.49');
 INSERT INTO `spell_target_position` VALUES ('46343', '0', '1', '-8167.18', '-4766.8', '33.9648', '5.165');
 INSERT INTO `spell_target_position` VALUES ('53097', '0', '609', '1401.45', '-5824.52', '137.188', '5.52088');
 INSERT INTO `spell_target_position` VALUES ('53098', '0', '609', '2399.07', '-5635.15', '377.035', '3.70201');
@@ -526,3 +526,6 @@ INSERT INTO `spell_target_position` VALUES ('22976', '0', '469', '-7564.18', '-1
 INSERT INTO `spell_target_position` VALUES ('22977', '0', '469', '-7550.29', '-1260.5', '476.799', '2.17357');
 INSERT INTO `spell_target_position` VALUES ('28444', '0', '533', '3005.74', '-3434.27', '304.196', '0');
 INSERT INTO `spell_target_position` VALUES ('72617', '0', '533', '3498.22', '-5349.36', '144.969', '1.32679');
+INSERT INTO `spell_target_position` VALUES ('70446', '1', '631', '-437.078', '2390.1', '191.233', '1.5708');
+INSERT INTO `spell_target_position` VALUES ('71284', '1', '631', '-437.447', '2032.51', '191.234', '4.73831');
+INSERT INTO `spell_target_position` VALUES ('72340', '1', '631', '-548.983', '2211.24', '539.29', '0.00576');

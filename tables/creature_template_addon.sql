@@ -5302,7 +5302,7 @@ INSERT INTO `creature_template_addon` VALUES ('31736', '0', '0', '0', '1', '0', 
 INSERT INTO `creature_template_addon` VALUES ('31770', '0', '0', '0', '1', '0', null);
 INSERT INTO `creature_template_addon` VALUES ('32370', '0', '0', '65536', '1', '0', '49414');
 INSERT INTO `creature_template_addon` VALUES ('31830', '0', '0', '0', '1', '0', null);
-INSERT INTO `creature_template_addon` VALUES ('36839', '0', '0', '0', '1', '0', '69470');
+INSERT INTO `creature_template_addon` VALUES ('36838', '0', '0', '0', '1', '0', '69470');
 INSERT INTO `creature_template_addon` VALUES ('36789', '0', '0', '0', '1', '0', '72724 70904');
 INSERT INTO `creature_template_addon` VALUES ('34075', '0', '0', '0', '257', '0', '5301');
 INSERT INTO `creature_template_addon` VALUES ('34081', '0', '0', '0', '257', '0', null);
@@ -7640,3 +7640,6 @@ INSERT INTO `creature_template_addon` VALUES ('30123', '0', '0', '0', '0', '0', 
 INSERT INTO `creature_template_addon` VALUES ('30121', '0', '0', '0', '0', '0', '56568');
 INSERT INTO `creature_template_addon` VALUES ('30295', '0', '0', '0', '0', '0', '54500');
 INSERT INTO `creature_template_addon` VALUES ('30169', '0', '0', '0', '1', '0', '56118');
+INSERT INTO `creature_template_addon` VALUES ('36839', '0', '0', '0', '1', '0', '69470');
+INSERT INTO `creature_template_addon` VALUES ('37184', '0', '0', '0', '1', '0', '69188 70348');
+INSERT INTO `creature_template_addon` VALUES ('37488', '0', '0', '33554432', '1', '0', '');

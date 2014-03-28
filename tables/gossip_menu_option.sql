@@ -1831,8 +1831,8 @@ INSERT INTO `gossip_menu_option` VALUES ('9865', '0', '0', 'Let\'s do this, sist
 INSERT INTO `gossip_menu_option` VALUES ('9924', '0', '0', 'Can you tell me what became of Sif?', '1', '1', '9927', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('9927', '0', '0', 'He did more than that, Thorim.  He controls Ulduar now.', '1', '1', '9926', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('9926', '0', '0', 'It needn\'t end this way.', '1', '1', '9925', '0', '0', '0', '');
+INSERT INTO `gossip_menu_option` VALUES ('10954', '0', '0', 'My companions are all accounted for, Saurfang. Let\'s go!', '1', '1', '0', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('10875', '0', '0', 'My companions are all accounted for, Muradin. Let\'s go!', '1', '1', '0', '0', '0', '0', '');
-INSERT INTO `gossip_menu_option` VALUES ('10885', '0', '0', 'Yeah, I\'m sure safety is your top priority. Give me a rocket pack.', '1', '1', '0', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('11013', '1', '0', 'Teleport to the Oratory of the Damned.', '1', '1', '0', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('11013', '3', '0', 'Teleport to the Rampart of Skulls.', '1', '1', '0', '0', '0', '0', '');
 INSERT INTO `gossip_menu_option` VALUES ('11013', '4', '0', 'Teleport to the Deathbringer\'s Rise.', '1', '1', '0', '0', '0', '0', '');
@@ -3496,3 +3496,4 @@ INSERT INTO `gossip_menu_option` VALUES ('321', '0', '0', 'Please port me to Dar
 INSERT INTO `gossip_menu_option` VALUES ('1422', '0', '1', 'Can you help me get down?', '3', '128', '0', '0', '0', '0', null);
 INSERT INTO `gossip_menu_option` VALUES ('1443', '0', '0', 'You can cook?  So can I!  Is there a recipe you can teach me?', '1', '1', '0', '0', '0', '0', null);
 INSERT INTO `gossip_menu_option` VALUES ('1443', '1', '0', 'You\'re an alchemist?  So am I.  Perhaps you can teach me what you know...', '1', '1', '0', '0', '0', '0', null);
+INSERT INTO `gossip_menu_option` VALUES ('10885', '0', '0', 'Yeah, I\'m sure safety is your top priority. Give me a rocket pack.', '1', '1', '0', '0', '0', '0', '');

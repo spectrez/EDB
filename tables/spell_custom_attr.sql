@@ -154,3 +154,4 @@ INSERT INTO `spell_custom_attr` VALUES ('72445', '32768');
 INSERT INTO `spell_custom_attr` VALUES ('72446', '32768');
 INSERT INTO `spell_custom_attr` VALUES ('64422', '32776');
 INSERT INTO `spell_custom_attr` VALUES ('72293', '4096');
+INSERT INTO `spell_custom_attr` VALUES ('72347', '4096');

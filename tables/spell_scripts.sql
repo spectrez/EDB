@@ -125,5 +125,4 @@ INSERT INTO `spell_scripts` VALUES ('47638', '0', '0', '14', '47636', '0', '0', 
 INSERT INTO `spell_scripts` VALUES ('58916', '0', '0', '15', '58915', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('58917', '0', '0', '15', '58919', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('53010', '0', '0', '14', '52989', '0', '0', '0', '0', '0', '0');
-INSERT INTO `spell_scripts` VALUES ('50630', '0', '0', '14', '46598', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('55818', '0', '0', '15', '55528', '1', '0', '0', '0', '0', '0');

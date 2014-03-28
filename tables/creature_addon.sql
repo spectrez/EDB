@@ -34256,3 +34256,8 @@ INSERT INTO `creature_addon` VALUES ('202460', '2024430', '0', '50331648', '0', 
 INSERT INTO `creature_addon` VALUES ('110264', '1102640', '0', '0', '1', '0', null);
 INSERT INTO `creature_addon` VALUES ('110277', '0', '0', '0', '1', '375', null);
 INSERT INTO `creature_addon` VALUES ('110278', '0', '0', '0', '1', '375', null);
+INSERT INTO `creature_addon` VALUES ('133938', '0', '0', '50331648', '1', '0', '70120');
+INSERT INTO `creature_addon` VALUES ('133948', '0', '0', '50331648', '1', '0', '70120');
+INSERT INTO `creature_addon` VALUES ('133962', '0', '0', '50331648', '1', '0', '70121');
+INSERT INTO `creature_addon` VALUES ('133963', '0', '0', '50331648', '1', '0', '70121');
+INSERT INTO `creature_addon` VALUES ('200879', '0', '0', '0', '1', '0', '69942');
