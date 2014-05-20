@@ -1,3 +1,20 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : Local
+Source Server Version : 50602
+Source Host           : 127.0.0.1:3306
+Source Database       : edb_world
+
+Target Server Type    : MYSQL
+Target Server Version : 50602
+File Encoding         : 65001
+
+Date: 2014-05-20 16:03:33
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `item_set_names`
 -- ----------------------------
@@ -6,7 +23,7 @@ CREATE TABLE `item_set_names` (
   `entry` mediumint(8) unsigned NOT NULL,
   `name` varchar(255) NOT NULL DEFAULT '',
   `InventoryType` tinyint(3) unsigned NOT NULL DEFAULT '0',
-  `WDBVerified` smallint(6) NOT NULL DEFAULT '1',
+  `VerifiedBuild` smallint(5) DEFAULT '0',
   PRIMARY KEY (`entry`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -16,12 +33,12 @@ CREATE TABLE `item_set_names` (
 INSERT INTO `item_set_names` VALUES ('6473', 'Armor of the Fang', '5', '11723');
 INSERT INTO `item_set_names` VALUES ('6833', 'White Tuxedo Shirt', '4', '11723');
 INSERT INTO `item_set_names` VALUES ('6835', 'Black Tuxedo Pants', '7', '11723');
-INSERT INTO `item_set_names` VALUES ('7948', 'Ninja Belt', '6', '1');
-INSERT INTO `item_set_names` VALUES ('7949', 'Ninja Pants', '7', '1');
-INSERT INTO `item_set_names` VALUES ('7950', 'Ninja Armor', '5', '1');
-INSERT INTO `item_set_names` VALUES ('7951', 'Ninja Gloves', '10', '1');
-INSERT INTO `item_set_names` VALUES ('7952', 'Ninja Boots', '8', '1');
-INSERT INTO `item_set_names` VALUES ('7953', 'Ninja Cover', '1', '1');
+INSERT INTO `item_set_names` VALUES ('7948', 'Ninja Belt', '6', '0');
+INSERT INTO `item_set_names` VALUES ('7949', 'Ninja Pants', '7', '0');
+INSERT INTO `item_set_names` VALUES ('7950', 'Ninja Armor', '5', '0');
+INSERT INTO `item_set_names` VALUES ('7951', 'Ninja Gloves', '10', '0');
+INSERT INTO `item_set_names` VALUES ('7952', 'Ninja Boots', '8', '0');
+INSERT INTO `item_set_names` VALUES ('7953', 'Ninja Cover', '1', '0');
 INSERT INTO `item_set_names` VALUES ('10328', 'Scarlet Chestpiece', '5', '11723');
 INSERT INTO `item_set_names` VALUES ('10329', 'Scarlet Belt', '6', '11723');
 INSERT INTO `item_set_names` VALUES ('10330', 'Scarlet Leggings', '7', '11723');
@@ -1842,11 +1859,11 @@ INSERT INTO `item_set_names` VALUES ('38437', 'Arctic Helm', '1', '11723');
 INSERT INTO `item_set_names` VALUES ('38438', 'Iceborne Helm', '1', '11723');
 INSERT INTO `item_set_names` VALUES ('38439', 'Nerubian Helm', '1', '11723');
 INSERT INTO `item_set_names` VALUES ('38440', 'Frostscale Helm', '1', '11723');
-INSERT INTO `item_set_names` VALUES ('40440', 'Gladiator\'s Dreadplate Chestpiece', '5', '1');
-INSERT INTO `item_set_names` VALUES ('40441', 'Gladiator\'s Dreadplate Gauntlets', '10', '1');
-INSERT INTO `item_set_names` VALUES ('40442', 'Gladiator\'s Dreadplate Helm', '1', '1');
-INSERT INTO `item_set_names` VALUES ('40443', 'Gladiator\'s Dreadplate Legguards', '7', '1');
-INSERT INTO `item_set_names` VALUES ('40444', 'Gladiator\'s Dreadplate Shoulders', '3', '1');
+INSERT INTO `item_set_names` VALUES ('40440', 'Gladiator\'s Dreadplate Chestpiece', '5', '0');
+INSERT INTO `item_set_names` VALUES ('40441', 'Gladiator\'s Dreadplate Gauntlets', '10', '0');
+INSERT INTO `item_set_names` VALUES ('40442', 'Gladiator\'s Dreadplate Helm', '1', '0');
+INSERT INTO `item_set_names` VALUES ('40443', 'Gladiator\'s Dreadplate Legguards', '7', '0');
+INSERT INTO `item_set_names` VALUES ('40444', 'Gladiator\'s Dreadplate Shoulders', '3', '0');
 INSERT INTO `item_set_names` VALUES ('41347', 'Savage Saronite Legplates', '7', '11723');
 INSERT INTO `item_set_names` VALUES ('41348', 'Savage Saronite Walkers', '8', '11723');
 INSERT INTO `item_set_names` VALUES ('41349', 'Savage Saronite Gauntlets', '10', '11723');

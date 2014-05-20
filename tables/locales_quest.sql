@@ -1,3 +1,20 @@
+/*
+Navicat MySQL Data Transfer
+
+Source Server         : Local
+Source Server Version : 50602
+Source Host           : 127.0.0.1:3306
+Source Database       : edb_world
+
+Target Server Type    : MYSQL
+Target Server Version : 50602
+File Encoding         : 65001
+
+Date: 2014-05-20 16:05:08
+*/
+
+SET FOREIGN_KEY_CHECKS=0;
+
 -- ----------------------------
 -- Table structure for `locales_quest`
 -- ----------------------------
@@ -92,6 +109,7 @@ CREATE TABLE `locales_quest` (
   `ObjectiveText4_loc6` text,
   `ObjectiveText4_loc7` text,
   `ObjectiveText4_loc8` text,
+  `VerifiedBuild` smallint(5) DEFAULT '0',
   PRIMARY KEY (`Id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
