@@ -4,7 +4,7 @@ This is an up-to-date version of TrinityCore's World Database. Our updates are o
 
 Our update process is much more user-friendly. Rather than you having to search through to find the correct update, we'll have update queries. We also will update the main tables, along with keeping our updates available for only 1 week and then they will be taken down to keep from having a massive mess. Updates during the 1 week period will be in one SQL file only.
 
-Currently on [d36ecbf4a39ed4d1b434a2926609b1d0d7b3c645] (https://github.com/TrinityCore/TrinityCore/commit/d36ecbf4a39ed4d1b434a2926609b1d0d7b3c645)
+Currently on [a6494375f9839b8c428c8daa508b9ca93caa0575] (https://github.com/TrinityCore/TrinityCore/commit/a6494375f9839b8c428c8daa508b9ca93caa0575)
 
 ## INFORMATION
 
