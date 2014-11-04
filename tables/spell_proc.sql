@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_proc`
+-- Table structure for spell_proc
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_proc`;
 CREATE TABLE `spell_proc` (

@@ -1,22 +1,5 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : Local
-Source Server Version : 50602
-Source Host           : 127.0.0.1:3306
-Source Database       : edb_world
-
-Target Server Type    : MYSQL
-Target Server Version : 50602
-File Encoding         : 65001
-
-Date: 2014-02-15 17:37:10
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
--- Table structure for `spell_threat`
+-- Table structure for spell_threat
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_threat`;
 CREATE TABLE `spell_threat` (

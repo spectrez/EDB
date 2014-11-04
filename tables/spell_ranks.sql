@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_ranks`
+-- Table structure for spell_ranks
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_ranks`;
 CREATE TABLE `spell_ranks` (
@@ -3378,6 +3378,9 @@ INSERT INTO `spell_ranks` VALUES ('66188', '66952', '4');
 INSERT INTO `spell_ranks` VALUES ('66188', '66953', '5');
 INSERT INTO `spell_ranks` VALUES ('44440', '44440', '1');
 INSERT INTO `spell_ranks` VALUES ('44440', '44441', '2');
+INSERT INTO `spell_ranks` VALUES ('58179', '58181', '3');
+INSERT INTO `spell_ranks` VALUES ('58179', '58180', '2');
+INSERT INTO `spell_ranks` VALUES ('58179', '58179', '1');
 INSERT INTO `spell_ranks` VALUES ('7268', '7268', '1');
 INSERT INTO `spell_ranks` VALUES ('7268', '7269', '2');
 INSERT INTO `spell_ranks` VALUES ('7268', '7270', '3');

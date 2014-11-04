@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_enchant_proc_data`
+-- Table structure for spell_enchant_proc_data
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_enchant_proc_data`;
 CREATE TABLE `spell_enchant_proc_data` (

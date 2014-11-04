@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_scripts`
+-- Table structure for spell_scripts
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_scripts`;
 CREATE TABLE `spell_scripts` (
@@ -27,8 +27,6 @@ INSERT INTO `spell_scripts` VALUES ('54620', '0', '0', '6', '571', '0', '0', '58
 INSERT INTO `spell_scripts` VALUES ('37834', '0', '0', '14', '37833', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('34448', '0', '0', '15', '26566', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('34452', '0', '0', '15', '26572', '0', '0', '0', '0', '0', '0');
-INSERT INTO `spell_scripts` VALUES ('52160', '0', '0', '0', '0', '1', '2000000108', '0', '0', '0', '0');
-INSERT INTO `spell_scripts` VALUES ('52163', '0', '0', '0', '0', '1', '2000000107', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('44997', '0', '0', '15', '45009', '1', '1', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('45030', '1', '0', '15', '45088', '1', '1', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('49625', '0', '0', '15', '43106', '1', '1', '0', '0', '0', '0');
@@ -126,3 +124,12 @@ INSERT INTO `spell_scripts` VALUES ('58916', '0', '0', '15', '58915', '0', '0', 
 INSERT INTO `spell_scripts` VALUES ('58917', '0', '0', '15', '58919', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('53010', '0', '0', '14', '52989', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('55818', '0', '0', '15', '55528', '1', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('21014', '0', '0', '17', '34127', '1', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '51861', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '52452', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '52453', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '52454', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('32580', '0', '0', '10', '21351', '30000', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '14', '46598', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '15', '44741', '1', '0', '0', '0', '0', '0');
+INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '15', '44741', '1', '0', '0', '0', '0', '0');

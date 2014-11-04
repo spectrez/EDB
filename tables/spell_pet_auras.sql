@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_pet_auras`
+-- Table structure for spell_pet_auras
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_pet_auras`;
 CREATE TABLE `spell_pet_auras` (

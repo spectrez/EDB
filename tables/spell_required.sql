@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_required`
+-- Table structure for spell_required
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_required`;
 CREATE TABLE `spell_required` (

@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_bonus_data`
+-- Table structure for spell_bonus_data
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_bonus_data`;
 CREATE TABLE `spell_bonus_data` (
@@ -53,7 +53,7 @@ INSERT INTO `spell_bonus_data` VALUES ('467', '0.033', '-1', '-1', '-1', 'Druid 
 INSERT INTO `spell_bonus_data` VALUES ('2912', '1', '-1', '-1', '-1', 'Druid - Starfire');
 INSERT INTO `spell_bonus_data` VALUES ('18562', '0', '0', '0', '0', 'Druid - Swiftmend');
 INSERT INTO `spell_bonus_data` VALUES ('779', '0', '0', '0.063', '-1', 'Druid - Swipe (Bear)');
-INSERT INTO `spell_bonus_data` VALUES ('44203', '0.538', '-1', '-1', '-1', 'Druid - Tranquility Triggered');
+INSERT INTO `spell_bonus_data` VALUES ('44203', '1.0743', '-1', '-1', '-1', 'Druid - Tranquility Triggered');
 INSERT INTO `spell_bonus_data` VALUES ('61391', '0.193', '-1', '-1', '-1', 'Druid - Typhoon');
 INSERT INTO `spell_bonus_data` VALUES ('48438', '-1', '0.11505', '-1', '-1', 'Druid - Wild Growth');
 INSERT INTO `spell_bonus_data` VALUES ('5176', '0.5714', '-1', '-1', '-1', 'Druid - Wrath');
@@ -347,3 +347,5 @@ INSERT INTO `spell_bonus_data` VALUES ('59548', '0', '0', '0', '0', 'Mage - Gift
 INSERT INTO `spell_bonus_data` VALUES ('61840', '0', '0', '0', '0', 'No bonus for Righteous Vengance DoT');
 INSERT INTO `spell_bonus_data` VALUES ('71878', '0', '0', '0', '0', 'Item - Black Bruise: Heroic Necrotic Touch Proc');
 INSERT INTO `spell_bonus_data` VALUES ('71879', '0', '0', '0', '0', 'Item - Black Bruise: Necrotic Touch Proc');
+INSERT INTO `spell_bonus_data` VALUES ('31024', '0', '0', '0', '0', 'Living ruby pendant should not get bonuses');
+INSERT INTO `spell_bonus_data` VALUES ('23266', '0', '0', '0', '0', 'Item - Essence of the Pure Flame no bonus');

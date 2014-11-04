@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for `spell_area`
+-- Table structure for spell_area
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_area`;
 CREATE TABLE `spell_area` (
@@ -441,7 +441,7 @@ INSERT INTO `spell_area` VALUES ('32098', '3562', '0', '0', '0', '0', '2', '0', 
 INSERT INTO `spell_area` VALUES ('32098', '3713', '0', '0', '0', '0', '2', '0', '64', '11');
 INSERT INTO `spell_area` VALUES ('32098', '3714', '0', '0', '0', '0', '2', '0', '64', '11');
 INSERT INTO `spell_area` VALUES ('32098', '3836', '0', '0', '0', '0', '2', '0', '64', '11');
-INSERT INTO `spell_area` VALUES ('52217', '4306', '12574', '0', '0', '0', '2', '1', '1', '64');
+INSERT INTO `spell_area` VALUES ('52217', '4306', '12574', '0', '0', '0', '2', '1', '74', '64');
 INSERT INTO `spell_area` VALUES ('52351', '4325', '12675', '0', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('52484', '4323', '12685', '0', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('68132', '4741', '0', '0', '0', '0', '2', '1', '64', '11');
@@ -464,3 +464,37 @@ INSERT INTO `spell_area` VALUES ('61209', '4495', '12924', '12924', '0', '0', '2
 INSERT INTO `spell_area` VALUES ('72914', '4438', '12856', '12856', '0', '0', '2', '1', '74', '11');
 INSERT INTO `spell_area` VALUES ('55858', '4495', '12924', '12924', '0', '0', '2', '1', '74', '11');
 INSERT INTO `spell_area` VALUES ('54502', '4446', '13057', '0', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('59087', '4522', '13258', '13282', '0', '690', '2', '1', '66', '43');
+INSERT INTO `spell_area` VALUES ('59073', '4522', '13386', '13392', '0', '1101', '2', '1', '66', '43');
+INSERT INTO `spell_area` VALUES ('52217', '4308', '12574', '0', '0', '0', '2', '1', '74', '64');
+INSERT INTO `spell_area` VALUES ('50012', '4175', '12470', '0', '0', '0', '2', '1', '2', '11');
+INSERT INTO `spell_area` VALUES ('43889', '3999', '11390', '0', '0', '0', '2', '1', '8', '0');
+INSERT INTO `spell_area` VALUES ('71313', '4862', '24461', '24522', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('60963', '4466', '13285', '0', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('54635', '4461', '12822', '0', '0', '0', '2', '1', '74', '1');
+INSERT INTO `spell_area` VALUES ('46999', '4169', '12473', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60027', '4384', '0', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60028', '4384', '0', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('71314', '4862', '24559', '24562', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('47917', '4027', '11652', '11652', '0', '0', '2', '0', '64', '11');
+INSERT INTO `spell_area` VALUES ('47917', '4130', '11652', '11652', '0', '0', '2', '0', '64', '11');
+INSERT INTO `spell_area` VALUES ('46234', '3537', '11879', '0', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('27105', '4492', '0', '12951', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('56057', '4497', '0', '12949', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('48763', '4180', '12274', '0', '0', '0', '0', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('48761', '4180', '12274', '0', '0', '0', '1', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('45614', '4125', '11633', '0', '0', '0', '2', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('45614', '4135', '11633', '0', '0', '0', '2', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('45614', '4136', '11633', '0', '0', '0', '2', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('45614', '4137', '11633', '0', '0', '0', '2', '0', '74', '11');
+INSERT INTO `spell_area` VALUES ('52217', '4287', '12692', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('52217', '4288', '12695', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('51116', '4284', '12523', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('49417', '4206', '12431', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('49416', '4206', '0', '12431', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('34102', '3733', '0', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('32407', '3674', '0', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('54504', '4543', '13047', '13047', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('54504', '4445', '13047', '13047', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('49416', '4521', '13364', '13364', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('49416', '4521', '13403', '13403', '0', '0', '2', '1', '74', '11');
