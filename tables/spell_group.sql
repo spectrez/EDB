@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_group
+-- Table structure for `spell_group`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_group`;
 CREATE TABLE `spell_group` (

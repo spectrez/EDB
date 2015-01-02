@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for creature_text
+-- Table structure for `creature_text`
 -- ----------------------------
 DROP TABLE IF EXISTS `creature_text`;
 CREATE TABLE `creature_text` (
@@ -6933,3 +6933,10 @@ INSERT INTO `creature_text` VALUES ('0', '2', '0', 'Here is your share.', '12', 
 INSERT INTO `creature_text` VALUES ('27914', '0', '0', 'I have arrived. Shall we set to work, then?', '12', '0', '100', '0', '0', '0', '27295', '0', 'Ethereal Soul-Trader');
 INSERT INTO `creature_text` VALUES ('27914', '1', '0', 'Ah, more essence to capture...', '12', '0', '100', '0', '0', '0', '27336', '0', 'Ethereal Soul-Trader');
 INSERT INTO `creature_text` VALUES ('27914', '2', '0', 'Here is your share.', '12', '0', '100', '0', '0', '0', '27341', '0', 'Ethereal Soul-Trader');
+INSERT INTO `creature_text` VALUES ('17968', '8', '0', 'All of your efforts have been in vain, for the draining of the World Tree has already begun!  Soon the heart of your world will beat no more!', '14', '0', '100', '0', '0', '10986', '20432', '3', 'Archimonde - Intro');
+INSERT INTO `creature_text` VALUES ('31333', '2', '0', 'Come to me, $n.', '15', '0', '100', '0', '0', '0', '32048', '0', 'Alexstrasza the Life-Binder to Player');
+INSERT INTO `creature_text` VALUES ('31334', '0', '0', 'My Queen, do they know?', '12', '0', '100', '6', '0', '0', '32038', '0', 'Korialstrasz to Player');
+INSERT INTO `creature_text` VALUES ('31333', '1', '0', 'They must not discover the fate of the young paladin. Not yet.', '12', '11', '100', '5', '0', '0', '32041', '0', 'Alexstrasza the Life-Binder to Player');
+INSERT INTO `creature_text` VALUES ('31333', '0', '0', 'No, my beloved.', '12', '0', '100', '1', '0', '0', '32040', '0', 'Alexstrasza the Life-Binder to Player');
+INSERT INTO `creature_text` VALUES ('31334', '1', '0', '%s nods.', '16', '0', '100', '0', '0', '0', '32046', '0', 'Korialstrasz to Player');
+INSERT INTO `creature_text` VALUES ('31334', '2', '0', 'They will not.', '12', '0', '100', '1', '0', '0', '32047', '0', 'Korialstrasz to Player');

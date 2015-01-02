@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_scripts
+-- Table structure for `spell_scripts`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_scripts`;
 CREATE TABLE `spell_scripts` (
@@ -131,5 +131,4 @@ INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '52453', '0', '0', 
 INSERT INTO `spell_scripts` VALUES ('51862', '0', '0', '15', '52454', '0', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('32580', '0', '0', '10', '21351', '30000', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '14', '46598', '0', '0', '0', '0', '0', '0');
-INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '15', '44741', '1', '0', '0', '0', '0', '0');
 INSERT INTO `spell_scripts` VALUES ('44688', '0', '0', '15', '44741', '1', '0', '0', '0', '0', '0');

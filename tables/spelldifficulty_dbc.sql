@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spelldifficulty_dbc
+-- Table structure for `spelldifficulty_dbc`
 -- ----------------------------
 DROP TABLE IF EXISTS `spelldifficulty_dbc`;
 CREATE TABLE `spelldifficulty_dbc` (
@@ -339,3 +339,4 @@ INSERT INTO `spelldifficulty_dbc` VALUES ('58457', '58457', '59251', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('60181', '60181', '60204', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('60182', '60182', '60205', '0', '0');
 INSERT INTO `spelldifficulty_dbc` VALUES ('52480', '52480', '58825', '0', '0');
+INSERT INTO `spelldifficulty_dbc` VALUES ('65722', '65722', '65723', '0', '0');

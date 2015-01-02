@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_threat
+-- Table structure for `spell_threat`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_threat`;
 CREATE TABLE `spell_threat` (

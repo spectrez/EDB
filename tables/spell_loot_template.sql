@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_loot_template
+-- Table structure for `spell_loot_template`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_loot_template`;
 CREATE TABLE `spell_loot_template` (

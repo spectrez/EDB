@@ -804,3 +804,4 @@ INSERT INTO `disables` VALUES ('1', '14106', '0', '', '', 'Deprecated quest: Na 
 INSERT INTO `disables` VALUES ('1', '1318', '0', '', '', 'Unfinished Gordok Business replaced by 7703');
 INSERT INTO `disables` VALUES ('0', '16378', '64', '', '', 'Ignore LOS for Krakles Thermometer');
 INSERT INTO `disables` VALUES ('4', '11238', '0', '', '', 'Achievement: Jade Tiger');
+INSERT INTO `disables` VALUES ('0', '45323', '64', '', '', 'Ignore LOS for Returning Vrykul Artifact');

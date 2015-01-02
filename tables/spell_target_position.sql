@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_target_position
+-- Table structure for `spell_target_position`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_target_position`;
 CREATE TABLE `spell_target_position` (

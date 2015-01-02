@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_area
+-- Table structure for `spell_area`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_area`;
 CREATE TABLE `spell_area` (
@@ -178,7 +178,7 @@ INSERT INTO `spell_area` VALUES ('58600', '4620', '0', '0', '0', '0', '2', '1', 
 INSERT INTO `spell_area` VALUES ('58600', '4637', '0', '0', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('58600', '4739', '0', '0', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('58600', '4740', '0', '0', '0', '0', '2', '1', '64', '11');
-INSERT INTO `spell_area` VALUES ('57745', '4591', '13068', '13082', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('57745', '4591', '13068', '13082', '0', '0', '2', '1', '74', '11');
 INSERT INTO `spell_area` VALUES ('57673', '4593', '0', '13086', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('57673', '4580', '0', '13086', '0', '0', '2', '1', '64', '11');
 INSERT INTO `spell_area` VALUES ('57673', '4506', '0', '13086', '0', '0', '2', '1', '64', '11');
@@ -498,3 +498,12 @@ INSERT INTO `spell_area` VALUES ('54504', '4543', '13047', '13047', '0', '0', '2
 INSERT INTO `spell_area` VALUES ('54504', '4445', '13047', '13047', '0', '0', '2', '1', '74', '11');
 INSERT INTO `spell_area` VALUES ('49416', '4521', '13364', '13364', '0', '0', '2', '1', '74', '11');
 INSERT INTO `spell_area` VALUES ('49416', '4521', '13403', '13403', '0', '0', '2', '1', '74', '11');
+INSERT INTO `spell_area` VALUES ('58932', '4171', '12499', '0', '0', '1101', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('58932', '4171', '12499', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('58932', '4172', '12499', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('58932', '4171', '12500', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('58932', '4172', '12500', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60778', '4171', '12499', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60778', '4172', '12499', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60778', '4171', '12500', '0', '0', '0', '2', '1', '64', '11');
+INSERT INTO `spell_area` VALUES ('60778', '4172', '12500', '0', '0', '0', '2', '1', '64', '11');

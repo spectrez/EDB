@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_linked_spell
+-- Table structure for `spell_linked_spell`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_linked_spell`;
 CREATE TABLE `spell_linked_spell` (
@@ -60,7 +60,7 @@ INSERT INTO `spell_linked_spell` VALUES ('781', '56446', '0', 'Disengage');
 INSERT INTO `spell_linked_spell` VALUES ('57635', '57636', '0', 'Disengage');
 INSERT INTO `spell_linked_spell` VALUES ('60932', '60934', '0', 'Disengage');
 INSERT INTO `spell_linked_spell` VALUES ('61507', '61508', '0', 'Disengage');
-INSERT INTO `spell_linked_spell` VALUES ('49576', '49560', '0', 'Death Grip');
+INSERT INTO `spell_linked_spell` VALUES ('-53017', '48330', '0', 'On Indisposed Expiring - Cast Create Amberseeds');
 INSERT INTO `spell_linked_spell` VALUES ('47897', '47960', '1', 'Shadowflame Rank 1');
 INSERT INTO `spell_linked_spell` VALUES ('61290', '61291', '1', 'Shadowflame Rank 2');
 INSERT INTO `spell_linked_spell` VALUES ('51723', '52874', '0', 'Fan Of Knives');
@@ -417,3 +417,4 @@ INSERT INTO `spell_linked_spell` VALUES ('47190', '47189', '1', 'Toaluus Spiritu
 INSERT INTO `spell_linked_spell` VALUES ('-43883', '-43052', '0', 'Rental racing ram removed removes Ram Fatigue');
 INSERT INTO `spell_linked_spell` VALUES ('47435', '-47447', '0', 'remove debuff');
 INSERT INTO `spell_linked_spell` VALUES ('66899', '-66656', '0', 'On cast 66899 (Gunship Portal Click (to Hangar)) - Remove 66656 (Parachute)');
+INSERT INTO `spell_linked_spell` VALUES ('26560', '18280', '0', 'Summon Lord-Commander Arete');

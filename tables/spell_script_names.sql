@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_script_names
+-- Table structure for `spell_script_names`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_script_names`;
 CREATE TABLE `spell_script_names` (
@@ -347,6 +347,7 @@ INSERT INTO `spell_script_names` VALUES ('38954', 'spell_gen_mixology_bonus');
 INSERT INTO `spell_script_names` VALUES ('39090', 'spell_capacitus_polarity_charge');
 INSERT INTO `spell_script_names` VALUES ('39093', 'spell_capacitus_polarity_charge');
 INSERT INTO `spell_script_names` VALUES ('39096', 'spell_capacitus_polarity_shift');
+INSERT INTO `spell_script_names` VALUES ('39142', 'spell_archimonde_drain_world_tree_dummy');
 INSERT INTO `spell_script_names` VALUES ('39228', 'spell_gen_absorb0_hitlimit1');
 INSERT INTO `spell_script_names` VALUES ('39238', 'spell_q10929_fumping');
 INSERT INTO `spell_script_names` VALUES ('39365', 'spell_murmur_thundering_storm');
@@ -474,6 +475,7 @@ INSERT INTO `spell_script_names` VALUES ('49462', 'spell_oculus_call_ruby_emeral
 INSERT INTO `spell_script_names` VALUES ('49463', 'spell_oculus_ride_ruby_emerald_amber_drake_que');
 INSERT INTO `spell_script_names` VALUES ('49555', 'spell_trollgore_corpse_explode');
 INSERT INTO `spell_script_names` VALUES ('49560', 'spell_dk_death_grip');
+INSERT INTO `spell_script_names` VALUES ('49576', 'spell_dk_death_grip_initial');
 INSERT INTO `spell_script_names` VALUES ('49587', 'spell_q12459_seeds_of_natures_wrath');
 INSERT INTO `spell_script_names` VALUES ('49592', 'spell_oculus_temporal_rift');
 INSERT INTO `spell_script_names` VALUES ('49838', 'spell_oculus_stop_time');

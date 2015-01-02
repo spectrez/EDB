@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_learn_spell
+-- Table structure for `spell_learn_spell`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_learn_spell`;
 CREATE TABLE `spell_learn_spell` (

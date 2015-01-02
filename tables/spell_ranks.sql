@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_ranks
+-- Table structure for `spell_ranks`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_ranks`;
 CREATE TABLE `spell_ranks` (

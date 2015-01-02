@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_bonus_data
+-- Table structure for `spell_bonus_data`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_bonus_data`;
 CREATE TABLE `spell_bonus_data` (
@@ -349,3 +349,4 @@ INSERT INTO `spell_bonus_data` VALUES ('71878', '0', '0', '0', '0', 'Item - Blac
 INSERT INTO `spell_bonus_data` VALUES ('71879', '0', '0', '0', '0', 'Item - Black Bruise: Necrotic Touch Proc');
 INSERT INTO `spell_bonus_data` VALUES ('31024', '0', '0', '0', '0', 'Living ruby pendant should not get bonuses');
 INSERT INTO `spell_bonus_data` VALUES ('23266', '0', '0', '0', '0', 'Item - Essence of the Pure Flame no bonus');
+INSERT INTO `spell_bonus_data` VALUES ('14792', '0', '0', '0', '0', 'Venomhide Poison - should not get bonuses');

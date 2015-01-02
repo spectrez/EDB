@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_group_stack_rules
+-- Table structure for `spell_group_stack_rules`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_group_stack_rules`;
 CREATE TABLE `spell_group_stack_rules` (

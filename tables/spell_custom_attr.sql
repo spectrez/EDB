@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_custom_attr
+-- Table structure for `spell_custom_attr`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_custom_attr`;
 CREATE TABLE `spell_custom_attr` (

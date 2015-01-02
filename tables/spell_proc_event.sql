@@ -1,5 +1,5 @@
 -- ----------------------------
--- Table structure for spell_proc_event
+-- Table structure for `spell_proc_event`
 -- ----------------------------
 DROP TABLE IF EXISTS `spell_proc_event`;
 CREATE TABLE `spell_proc_event` (
@@ -750,3 +750,5 @@ INSERT INTO `spell_proc_event` VALUES ('37447', '0', '3', '0', '256', '0', '1638
 INSERT INTO `spell_proc_event` VALUES ('61062', '0', '3', '0', '256', '0', '16384', '0', '0', '0', '0');
 INSERT INTO `spell_proc_event` VALUES ('71761', '0', '3', '0', '1048576', '0', '0', '256', '0', '0', '0');
 INSERT INTO `spell_proc_event` VALUES ('70811', '0', '11', '3', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_proc_event` VALUES ('71174', '1', '7', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `spell_proc_event` VALUES ('71198', '4', '11', '0', '0', '0', '0', '0', '0', '0', '0');

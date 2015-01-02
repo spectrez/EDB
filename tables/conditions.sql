@@ -1889,8 +1889,7 @@ INSERT INTO `conditions` VALUES ('1', '24015', '43508', '0', '0', '7', '0', '185
 INSERT INTO `conditions` VALUES ('1', '24015', '43509', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('1', '24015', '43510', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('1', '24016', '43508', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
-INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '0', '8', '0', '11236', '0', '0', '0', '0', '0', '', null);
-INSERT INTO `conditions` VALUES ('1', '24018', '34091', '0', '0', '8', '0', '11264', '0', '0', '0', '0', '0', '', null);
+INSERT INTO `conditions` VALUES ('1', '24018', '34091', '0', '2', '28', '0', '11264', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player has completed Necro Overlord Mezhen');
 INSERT INTO `conditions` VALUES ('1', '24030', '43507', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('1', '24030', '43508', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('1', '24030', '43509', '0', '0', '7', '0', '185', '1', '0', '0', '0', '0', '', null);
@@ -3898,8 +3897,6 @@ INSERT INTO `conditions` VALUES ('13', '1', '39043', '0', '0', '31', '0', '3', '
 INSERT INTO `conditions` VALUES ('13', '1', '39094', '0', '0', '31', '0', '3', '22395', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('13', '1', '39124', '0', '0', '31', '0', '5', '184738', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('13', '1', '39126', '0', '0', '31', '0', '3', '19557', '0', '0', '0', '0', '', null);
-INSERT INTO `conditions` VALUES ('13', '1', '39140', '0', '0', '31', '0', '3', '22418', '0', '0', '0', '0', '', null);
-INSERT INTO `conditions` VALUES ('13', '1', '39141', '0', '0', '31', '0', '3', '17968', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('13', '1', '39219', '0', '0', '31', '0', '3', '22443', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('13', '1', '39221', '0', '0', '31', '0', '3', '23116', '0', '0', '0', '0', '', null);
 INSERT INTO `conditions` VALUES ('13', '4', '39246', '0', '0', '31', '0', '3', '22105', '0', '0', '0', '0', '', null);
@@ -9447,3 +9444,15 @@ INSERT INTO `conditions` VALUES ('13', '1', '70444', '0', '5', '31', '0', '3', '
 INSERT INTO `conditions` VALUES ('13', '1', '67335', '0', '0', '31', '0', '3', '37540', '0', '0', '0', '0', '', 'Gunship Fall Teleport - target The Skybreaker');
 INSERT INTO `conditions` VALUES ('13', '1', '67335', '0', '1', '31', '0', '3', '37215', '0', '0', '0', '0', '', 'Gunship Fall Teleport - target Orgrim\'s Hammer');
 INSERT INTO `conditions` VALUES ('17', '0', '68645', '0', '0', '1', '0', '70348', '0', '0', '0', '173', '0', '', 'Rocket Pack - require Rocket Pack Useable');
+INSERT INTO `conditions` VALUES ('13', '1', '39141', '0', '0', '31', '0', '3', '17968', '0', '0', '0', '0', '', 'Drain World Tree Visual 2');
+INSERT INTO `conditions` VALUES ('13', '1', '39140', '0', '0', '31', '0', '3', '22418', '0', '0', '0', '0', '', 'Drain World Tree Visual');
+INSERT INTO `conditions` VALUES ('22', '3', '31333', '0', '1', '8', '0', '12500', '0', '0', '0', '0', '0', '', 'Alexstrasza the Life-Binder - Run AI only if player is rewarded for Return To Angrathar');
+INSERT INTO `conditions` VALUES ('22', '3', '31333', '0', '0', '8', '0', '12499', '0', '0', '0', '0', '0', '', 'Alexstrasza the Life-Binder - Run AI only if player is rewarded for Return To Angrathar');
+INSERT INTO `conditions` VALUES ('15', '10179', '0', '0', '1', '8', '0', '12500', '0', '0', '0', '0', '0', '', 'Alexstrasza the Life-Binder - Show Gossip if player is rewarded for Return To Angrathar');
+INSERT INTO `conditions` VALUES ('15', '10179', '0', '0', '0', '8', '0', '12499', '0', '0', '0', '0', '0', '', 'Alexstrasza the Life-Binder - Show Gossip if player is rewarded for Return To Angrathar');
+INSERT INTO `conditions` VALUES ('1', '24018', '34091', '0', '1', '9', '0', '11264', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player has taken Necro Overlord Mezhen');
+INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '2', '28', '0', '11236', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player has completed Necro Overlord Mezhen');
+INSERT INTO `conditions` VALUES ('1', '24018', '34091', '0', '0', '8', '0', '11264', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player is rewarded for Necro Overlord Mezhen');
+INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '1', '9', '0', '11236', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player has taken Necro Overlord Mezhen');
+INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '0', '8', '0', '11236', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player is rewarded for Necro Overlord Mezhen');
+INSERT INTO `conditions` VALUES ('13', '1', '39142', '0', '0', '31', '0', '3', '22418', '0', '0', '0', '0', '', 'Drain World Tree Dummy');
