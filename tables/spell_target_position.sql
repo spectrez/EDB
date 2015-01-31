@@ -544,3 +544,5 @@ INSERT INTO `spell_target_position` VALUES ('57553', '0', '571', '5875.43', '-19
 INSERT INTO `spell_target_position` VALUES ('60585', '0', '571', '6488.41', '411.684', '481.937', '4.74', '0');
 INSERT INTO `spell_target_position` VALUES ('28444', '0', '533', '3005.51', '-3434.64', '304.195', '5.81041', '0');
 INSERT INTO `spell_target_position` VALUES ('66899', '0', '628', '747', '-1075', '135', '0', '18414');
+INSERT INTO `spell_target_position` VALUES ('70719', '0', '668', '5302', '1989', '708', '0', '0');
+INSERT INTO `spell_target_position` VALUES ('70700', '0', '668', '5298', '1995', '708', '0', '0');

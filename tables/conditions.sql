@@ -9456,3 +9456,4 @@ INSERT INTO `conditions` VALUES ('1', '24018', '34091', '0', '0', '8', '0', '112
 INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '1', '9', '0', '11236', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player has taken Necro Overlord Mezhen');
 INSERT INTO `conditions` VALUES ('1', '24018', '34090', '0', '0', '8', '0', '11236', '0', '0', '0', '0', '0', '', 'Mezhens Writings drops if player is rewarded for Necro Overlord Mezhen');
 INSERT INTO `conditions` VALUES ('13', '1', '39142', '0', '0', '31', '0', '3', '22418', '0', '0', '0', '0', '', 'Drain World Tree Dummy');
+INSERT INTO `conditions` VALUES ('13', '1', '73035', '0', '0', '31', '0', '3', '37704', '0', '0', '0', '0', '', 'Essence of the Captured (73035) only hits Frostmourne Altar Bunny (Quel\'Delar)');

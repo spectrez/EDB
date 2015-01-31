@@ -105,3 +105,4 @@ INSERT INTO `areatrigger_scripts` VALUES ('5097', 'SmartTrigger');
 INSERT INTO `areatrigger_scripts` VALUES ('5098', 'SmartTrigger');
 INSERT INTO `areatrigger_scripts` VALUES ('2046', 'at_dragonspire_hall');
 INSERT INTO `areatrigger_scripts` VALUES ('2026', 'at_blackrock_stadium');
+INSERT INTO `areatrigger_scripts` VALUES ('5660', 'at_hor_uther_quel_delar_start');

@@ -6940,3 +6940,11 @@ INSERT INTO `creature_text` VALUES ('31333', '1', '0', 'They must not discover t
 INSERT INTO `creature_text` VALUES ('31333', '0', '0', 'No, my beloved.', '12', '0', '100', '1', '0', '0', '32040', '0', 'Alexstrasza the Life-Binder to Player');
 INSERT INTO `creature_text` VALUES ('31334', '1', '0', '%s nods.', '16', '0', '100', '0', '0', '0', '32046', '0', 'Korialstrasz to Player');
 INSERT INTO `creature_text` VALUES ('31334', '2', '0', 'They will not.', '12', '0', '100', '1', '0', '0', '32047', '0', 'Korialstrasz to Player');
+INSERT INTO `creature_text` VALUES ('37158', '0', '0', '%s prepares to attack!', '41', '0', '100', '0', '0', '0', '37211', '0', 'Quel\'Delar');
+INSERT INTO `creature_text` VALUES ('37704', '0', '0', 'Quel\'Delar leaps to life in the presence of Frostmourne!', '41', '0', '100', '0', '0', '0', '37645', '0', 'Frostmourne Altar Bunny (Quel\'Delar)');
+INSERT INTO `creature_text` VALUES ('37225', '16', '0', 'Halt! Do not carry that blade any further!', '14', '0', '100', '25', '0', '16675', '37201', '0', 'Uther the Lightbringer');
+INSERT INTO `creature_text` VALUES ('37225', '17', '0', 'Do you realize what you\'ve done?', '14', '0', '100', '5', '0', '16676', '37202', '0', 'Uther the Lightbringer');
+INSERT INTO `creature_text` VALUES ('37225', '18', '0', 'You have forged this blade from saronite, the very blood of an old god. The power of the Lich King calls to this weapon.', '12', '0', '100', '1', '0', '16677', '37204', '0', 'Uther the Lightbringer');
+INSERT INTO `creature_text` VALUES ('37225', '19', '0', 'Each moment you tarry here, Quel\'Delar drinks in the evil of this place.', '12', '0', '100', '1', '0', '16678', '38442', '0', 'Uther the Lightbringer');
+INSERT INTO `creature_text` VALUES ('37225', '20', '0', 'There is only one way to cleanse this sword. Make haste for the Sunwell and immerse the blade in its waters.', '12', '0', '100', '25', '0', '16679', '37205', '0', 'Uther the Lightbringer');
+INSERT INTO `creature_text` VALUES ('37225', '21', '0', 'I can resist Frostmourne\'s call no more...', '12', '0', '100', '1', '0', '16680', '37206', '0', 'Uther the Lightbringer');
