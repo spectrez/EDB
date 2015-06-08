@@ -1,20 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : Local
-Source Server Version : 50602
-Source Host           : 127.0.0.1:3306
-Source Database       : edb_world
-
-Target Server Type    : MYSQL
-Target Server Version : 50602
-File Encoding         : 65001
-
-Date: 2014-02-15 17:37:20
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for `trinity_string`
 -- ----------------------------
@@ -459,7 +442,7 @@ INSERT INTO `trinity_string` VALUES ('538', '   Unknown movement generator (%u)'
 INSERT INTO `trinity_string` VALUES ('539', 'Player selected NPC\nDB GUID: %u, current GUID: %u.\nFaction: %u.\nnpcFlags: %u.\nEntry: %u.\nDisplayID: %u (Native: %u).', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('540', 'Level: %u.', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('541', 'Health (base): %u. (max): %u. (current): %u.', null, null, null, null, null, null, null, null);
-INSERT INTO `trinity_string` VALUES ('542', 'Unit Flags: %u.\nUnit Flags 2: %u.\nDynamic Flags: %u.\nFaction Template: %u.', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('542', 'Unit Flags 2: %u.\nDynamic Flags: %u.\nFaction Template: %u.', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('543', 'Loot: %u Pickpocket: %u Skinning: %u', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('544', 'Position: %f %f %f.', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('545', '* is vendor (%u)', null, null, null, null, null, null, null, null);
@@ -1114,4 +1097,8 @@ INSERT INTO `trinity_string` VALUES ('867', 'Arena team Name: \"%s\"[Id: %u] cha
 INSERT INTO `trinity_string` VALUES ('868', 'Arena team: \"%s\"[%u] - Rating: %u - Type: %ux%u', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('869', 'Name:\"%s\"[guid:%u] - PR: %u - %s', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('870', '|\"%s\"[ID:%u](%ux%u)|', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('11008', 'InhabitType: %u', null, null, null, null, null, null, null, null);
 INSERT INTO `trinity_string` VALUES ('871', 'Ôöé Level: %u', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('5038', 'Unit Flags: %u', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('5037', 'MechanicImmuneMask: %u', null, null, null, null, null, null, null, null);
+INSERT INTO `trinity_string` VALUES ('11009', 'Flags Extra: %u', null, null, null, null, null, null, null, null);
