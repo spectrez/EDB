@@ -48,6 +48,11 @@ DROP `RequiredMinRepValue`,
 DROP `RequiredMaxRepValue`,
 DROP `SourceItemCount`,
 DROP `SpecialFlags`;
+DROP `RequiredSpellCast1`;
+DROP `RequiredSpellCast2`;
+DROP `RequiredSpellCast3`;
+DROP `RequiredSpellCast4`;
+
 
 DROP TABLE IF EXISTS `creature_questitem`;
 CREATE TABLE `creature_questitem` (
