@@ -1,35 +1,18 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : Local
-Source Server Version : 50602
-Source Host           : 127.0.0.1:3306
-Source Database       : edb_world
-
-Target Server Type    : MYSQL
-Target Server Version : 50602
-File Encoding         : 65001
-
-Date: 2014-05-20 16:04:23
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for `areatrigger_teleport`
 -- ----------------------------
 DROP TABLE IF EXISTS `areatrigger_teleport`;
 CREATE TABLE `areatrigger_teleport` (
-  `id` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'Identifier',
-  `name` text,
+  `ID` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `Name` text,
   `target_map` smallint(5) unsigned NOT NULL DEFAULT '0',
   `target_position_x` float NOT NULL DEFAULT '0',
   `target_position_y` float NOT NULL DEFAULT '0',
   `target_position_z` float NOT NULL DEFAULT '0',
   `target_orientation` float NOT NULL DEFAULT '0',
   `VerifiedBuild` smallint(5) DEFAULT '0',
-  PRIMARY KEY (`id`),
-  FULLTEXT KEY `name` (`name`)
+  PRIMARY KEY (`ID`),
+  FULLTEXT KEY `name` (`Name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Trigger System';
 
 -- ----------------------------

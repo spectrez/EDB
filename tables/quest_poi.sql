@@ -1,36 +1,19 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : Local
-Source Server Version : 50602
-Source Host           : 127.0.0.1:3306
-Source Database       : edb_world
-
-Target Server Type    : MYSQL
-Target Server Version : 50602
-File Encoding         : 65001
-
-Date: 2014-05-20 16:06:19
-*/
-
-SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for `quest_poi`
 -- ----------------------------
 DROP TABLE IF EXISTS `quest_poi`;
 CREATE TABLE `quest_poi` (
-  `questId` int(10) unsigned NOT NULL DEFAULT '0',
+  `QuestID` int(10) unsigned NOT NULL DEFAULT '0',
   `id` int(10) unsigned NOT NULL DEFAULT '0',
-  `objIndex` int(11) NOT NULL DEFAULT '0',
-  `mapid` int(10) unsigned NOT NULL DEFAULT '0',
+  `ObjectiveIndex` int(11) NOT NULL DEFAULT '0',
+  `MapID` int(10) unsigned NOT NULL DEFAULT '0',
   `WorldMapAreaId` int(10) unsigned NOT NULL DEFAULT '0',
-  `FloorId` int(10) unsigned NOT NULL DEFAULT '0',
-  `unk3` int(10) unsigned NOT NULL DEFAULT '0',
-  `unk4` int(10) unsigned NOT NULL DEFAULT '0',
+  `Floor` int(10) unsigned NOT NULL DEFAULT '0',
+  `Priority` int(10) unsigned NOT NULL DEFAULT '0',
+  `Flags` int(10) unsigned NOT NULL DEFAULT '0',
   `VerifiedBuild` smallint(5) DEFAULT '0',
-  PRIMARY KEY (`questId`,`id`),
-  KEY `idx` (`questId`,`id`)
+  PRIMARY KEY (`QuestID`,`id`),
+  KEY `idx` (`QuestID`,`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- ----------------------------

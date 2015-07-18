@@ -3,8 +3,8 @@
 -- ----------------------------
 DROP TABLE IF EXISTS `creature_formations`;
 CREATE TABLE `creature_formations` (
-  `leaderGUID` int(10) unsigned NOT NULL,
-  `memberGUID` int(10) unsigned NOT NULL,
+  `leaderGUID` int(10) unsigned NOT NULL DEFAULT '0',
+  `memberGUID` int(10) unsigned NOT NULL DEFAULT '0',
   `dist` float unsigned NOT NULL,
   `angle` float unsigned NOT NULL,
   `groupAI` int(10) unsigned NOT NULL,
